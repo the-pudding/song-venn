@@ -12,46 +12,51 @@
     margin 0 auto
     width 95%
     margin-bottom 5rem
-  .frame
-    margin 0 auto
-    max-width 700px
-    width 95%
-    margin-bottom 4rem
-    text-align center
-    .frame-top
-      font-size 1.6rem
-      text-align center
-      display block
-      max-width 600px
+  .frame-wrapper
+
+    .frame
       margin 0 auto
-      margin-bottom 1rem
-    .frame-top-medium
-      font-size 1.2rem
-      color rgba(0,0,0,.6)
-      margin-bottom 3rem
-      a
+      max-width 700px
+      width 95%
+      margin-bottom 4rem
+      text-align center
+      .frame-top
+        font-size 1.6rem
+        text-align center
+        display block
+        max-width 600px
+        margin 0 auto
+        margin-bottom 1rem
+      .frame-top-medium
+        font-size 1.2rem
         color rgba(0,0,0,.6)
-        border-color rgba(0,0,0,.6)
-        &:visited
+        margin-bottom 3rem
+        a
           color rgba(0,0,0,.6)
           border-color rgba(0,0,0,.6)
-    .frame-top-left
-      text-align left
-    .frame-img
-      display block
-      position relative
-      picture
+          &:visited
+            color rgba(0,0,0,.6)
+            border-color rgba(0,0,0,.6)
+      .frame-top-left
+        text-align left
+      .frame-img
         display block
-        z-index 0
-      .frame-svg
-        position absolute
-        left 0
-        top 0
-        z-index 100
-        text, tspan
-          font-family $atlas
-          font-weight 300
-
+        position relative
+        picture
+          display block
+          z-index 0
+        .frame-svg
+          position absolute
+          left 0
+          top 0
+          z-index 100
+          text, tspan
+            font-family $atlas
+            font-weight 300
+            -webkit-font-smoothing antialiased
+      .frame-shink
+        width 70%
+        margin 0 auto
 
 .line-chart
   margin 0 auto

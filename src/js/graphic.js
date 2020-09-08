@@ -25,8 +25,8 @@ function setupHowlerList() {
       artist_song: 'the-sign',
       song_url: 'https://p.scdn.co/mp3-preview/304efabb42448c99202a7659e43b502a6324d981'
     }, {
-      artist_song: 'wild-wild-west',
-      song_url: 'https://p.scdn.co/mp3-preview/3adf0f00d728e3ab23c7dd167dbaedfdcd2ef6fe'
+      artist_song: 'cold',
+      song_url: 'https://p.scdn.co/mp3-preview/0115e602f170e642fe3c1259650ab38fd3c8a0fc'
     }, {
       artist_song: 'smack',
       song_url: 'https://p.scdn.co/mp3-preview/0ac099ae429cd14e7424bb1d8921a02fc1b3ceeb'
