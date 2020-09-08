@@ -1,19 +1,16 @@
 {
-  "title": "Defining the ’90s Music Canon",
-  "description": "Quantifying the songs that will characterize the ’90s",
+  "title": "A Data-led Theory to Generationally Divide Dance Floors",
+  "description": "Some age groups are more likely to recognize certain songs than others. ",
   "site": "https://pudding.cool",
   "siteName": "The Pudding",
-  "url": "https://pudding.cool/2020/07/song-decay/",
-  "keywords": "songs music decay rate culture",
-  "imgFacebook": "https://pudding.cool/2020/07/song-decay/assets/social/fb.jpg",
-  "imgTwitter": "https://pudding.cool/2020/07/song-decay/assets/social/tw.jpg",
+  "url": "https://pudding.cool/2020/09/wedding-playlists/",
+  "keywords": "songs music decay rate culture wedding",
+  "imgFacebook": "https://pudding.cool/2020/09/wedding-playlists/assets/social/fb_2.jpg",
+  "imgTwitter": "https://pudding.cool/2020/09/wedding-playlists/social/tw_2.jpg",
   "author": {
     "name1": "Matt Daniels",
     "url1": "https://pudding.cool/author/matt-daniels",
-    "twitterHandle1": "@matthew_daniels",
-    "name2": "Ilia Blinderman",
-    "url2": "https://pudding.cool/author/ilia-blinderman",
-    "twitterHandle2": "@iliablinderman"
+    "twitterHandle1": "@matthew_daniels"
   },
   "analytics": "",
   "lorem": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis neque sit amet sollicitudin vehicula. Maecenas fringilla mi non lacus mattis elementum. Curabitur dignissim faucibus justo."

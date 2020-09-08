@@ -12,21 +12,25 @@
     margin 0 auto
     width 95%
     margin-bottom 5rem
+    @media (max-width: 450px)
+      font-size 38px
   .frame-wrapper
 
     .frame
       margin 0 auto
       max-width 700px
-      width 95%
       margin-bottom 4rem
       text-align center
       .frame-top
         font-size 1.6rem
         text-align center
         display block
+        width 95%
         max-width 600px
         margin 0 auto
         margin-bottom 1rem
+        @media (max-width: 450px)
+          font-size 1.3rem
       .frame-top-medium
         font-size 1.2rem
         color rgba(0,0,0,.6)
@@ -50,13 +54,25 @@
           left 0
           top 0
           z-index 100
+          font-weight 300
           text, tspan
             font-family $atlas
-            font-weight 300
             -webkit-font-smoothing antialiased
       .frame-shink
-        width 70%
         margin 0 auto
+
+        svg
+          rect
+            pointer-events all
+          text, tspan
+            pointer-events none
+
+.byline
+  max-width 600px
+  width 95%
+  font-size 1rem
+  text-align center
+  color rgba(0,0,0,.6)
 
 .line-chart
   margin 0 auto
