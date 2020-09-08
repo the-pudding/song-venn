@@ -44,7 +44,7 @@ function init() {
   // setup sticky header menu
   // setupStickyHeader();
   // kick off graphic code
-  graphic.init();
+  // graphic.init();
   // load footer stories
   footer.init();
 }
