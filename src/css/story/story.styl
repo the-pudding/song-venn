@@ -2,6 +2,9 @@
 
 
 
+#stay, #stayin, #smack, #reason, #thong-song, #cold-hearted, #eternal-flame
+  cursor pointer
+
 .story
   margin 0 auto
   margin-top 10rem
@@ -19,18 +22,23 @@
     .frame
       margin 0 auto
       max-width 700px
-      margin-bottom 4rem
+      margin-bottom 5rem
       text-align center
       .frame-top
         font-size 1.6rem
         text-align center
         display block
-        width 95%
-        max-width 600px
         margin 0 auto
-        margin-bottom 1rem
+        margin-bottom 2rem
+        width 100%
+        @media (max-width: 720px)
+          width 95%
         @media (max-width: 450px)
           font-size 1.3rem
+
+      .frame-top-left
+        text-align left
+        margin-bottom 1rem
       .frame-top-medium
         font-size 1.2rem
         color rgba(0,0,0,.6)
@@ -41,8 +49,6 @@
           &:visited
             color rgba(0,0,0,.6)
             border-color rgba(0,0,0,.6)
-      .frame-top-left
-        text-align left
       .frame-img
         display block
         position relative
@@ -60,7 +66,7 @@
             -webkit-font-smoothing antialiased
       .frame-shink
         margin 0 auto
-
+        max-width 500px
         svg
           rect
             pointer-events all
@@ -69,6 +75,7 @@
 
 .byline
   max-width 600px
+  margin 0 auto
   width 95%
   font-size 1rem
   text-align center
