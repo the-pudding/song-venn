@@ -15,10 +15,17 @@
         display flex
         margin 0 auto
         justify-content center
-
         margin-top 2rem
         margin-bottom 2rem
         width 95%
+        label
+          font-family $atlas
+          font-size 14px
+          font-weight 300
+          align-self center
+          margin-right 10px
+          width 60px
+          text-align right
         .newsletter__input
           background rgba(255,255,255,.53)
           border 1px solid rgba(0,0,0,.25)
@@ -26,6 +33,9 @@
           margin-right 5px
           padding-left .5rem
           font-family $sans
+          flex-grow 1
+          width 1px
+          max-width 200px
           &::placeholder
             font-family $sans
         .btn
@@ -58,7 +68,7 @@
       button
         display block
         box-shadow 0 2px 2px rgba(225, 98, 89, 0.36)
-        background-color #E16259
+        background-color #d73f2e
         border 1px solid #BE5643
         border-radius 3px
         padding .5rem 1rem
